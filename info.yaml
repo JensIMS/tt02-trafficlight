@@ -16,7 +16,7 @@ project:
 documentation: 
   author:       "Jens Schleusner"      # Your name
   discord:      "Jens S"      # Your discord handle
-  title:        "Trafficlight"      # Project title
+  title:        "German Traffic Light State Machine"      # Project title
   description:  "A state machine to control german traffic lights at an intersection."      # Short description of what your project does
   how_it_works: "A state machine generates signals for vehicle and pedestrian traffic lights at an intersection of a main street and a side street. A blinking yellow light for the side street is generated in the reset state."      # Longer description of how the project works
   how_to_test:  "Provide a clock, hook up LEDs and generate a reset signal to reset the intersection to all-red. If your leave the reset signal enabled, a blinking yellow light is shown for the side street."      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
